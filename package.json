@@ -1,0 +1,20 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "rps.js",
+  "scripts": {
+    "start": "node rps.js",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "author": "Md Khairul Islam Ratul",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0"
+  }
+}
